@@ -173,19 +173,19 @@ Detailed input requirements and preparation procedures are provided in the **Qui
 
 ```text
 DeepPoW/
-├── app.R               # Main Shiny application
-├── code/                   # Core R modules
-│   ├── mod_treetime.R
-│   ├── pow_modeling.R
-│   ├── pow_multitree.R
-│   ├── structure_validation.R
-│   ├── tree_parser.R
-│   ├── generate_rmsd_matrix.R
-│   └── Utilities.R
-├── demo/                   # Example or supporting datasets
-├── docs/                   # Documentation
-├── README.md
-└── LICENSE
+├── app.R                      # Main Shiny application
+├── code/                      # Core R modules
+│   ├── mod_treetime.R         # TreeTime-based TDRP exploration
+│   ├── pow_modeling.R         # TDRP model fitting and robustness diagnostics
+│   ├── pow_multitree.R        # PoW calibration of MCMC posterior-tree ensembles
+│   ├── structure_validation.R # Structural validation and Mantel tests
+│   ├── tree_parser.R          # Parsing annotated phylogenetic trees
+│   ├── generate_rmsd_matrix.R # Protein structural distance matrix generation
+│   └── Utilities.R            # Supporting utilities
+├── demo/                      # Example datasets
+├── docs/                      # User Manual and Quick Guide
+├── README.md                  # Project overview and installation instructions
+└── LICENSE                    # MIT License
 ```
 
 The exact repository structure may change between releases.
