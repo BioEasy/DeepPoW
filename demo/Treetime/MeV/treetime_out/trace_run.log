@@ -1,0 +1,4 @@
+Sample	ndiff	n_resolved	seq_mode	seq_LH	pos_mode	pos_LH	coal_mode	coal_LH
+0	0	0	joint	-13759.507268897161	joint	-13951.895366230932	None	0
+1	0	16	joint	-13953.210647020627	joint	-13792.146698852188	None	0.0
+2	2	0	joint	-13951.65262933221	joint	-13782.446040009409	None	0.0

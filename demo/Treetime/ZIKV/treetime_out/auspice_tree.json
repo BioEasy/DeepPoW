@@ -1,0 +1,3927 @@
+{
+"meta": {
+"title": "Auspice visualization of TreeTime (v0.12.1) analysis",
+"build_url": "https://github.com/neherlab/treetime",
+"last_updated": "2026-08-19",
+"treetime_version": "0.12.1",
+"genome_annotations": {
+"nuc": {
+"start": 1,
+"end": 10807,
+"type": "source",
+"strand": "+:"
+}
+},
+"panels": [
+"tree",
+"entropy"
+],
+"colorings": [
+{
+"title": "Date",
+"type": "continuous",
+"key": "num_date"
+},
+{
+"title": "Genotype",
+"type": "categorical",
+"key": "gt"
+},
+{
+"title": "Excluded",
+"type": "categorical",
+"key": "bad_branch"
+},
+{
+"title": "Branch Support",
+"type": "continuous",
+"key": "confidence"
+}
+],
+"display_defaults": {
+"color_by": "bad_branch"
+},
+"filters": [
+"bad_branch"
+]
+},
+"tree": {
+"name": "NODE_0000000",
+"node_attrs": {
+"num_date": {
+"value": 2013.1124200591532
+},
+"div": 0.001,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NODE_0000006",
+"node_attrs": {
+"num_date": {
+"value": 2013.3164376175555
+},
+"div": 0.001277742535947076,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.95
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C2654T",
+"C3518T",
+"T8408C"
+]
+}
+},
+"children": [
+{
+"name": "1_0016_PF|KX447520|2014-01-15|french_polynesia",
+"node_attrs": {
+"num_date": {
+"value": 2014.0397260273974
+},
+"div": 0.0021116559992082396,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A429G",
+"C3574G",
+"C3576T",
+"T3577C",
+"T3578A",
+"C4877T",
+"T5225C",
+"T5391C",
+"C9623T"
+]
+}
+}
+},
+{
+"name": "1_0015_PF|KX447511|2014-01-15|french_polynesia",
+"node_attrs": {
+"num_date": {
+"value": 2014.0397260273974
+},
+"div": 0.0018333517494397871,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T1436C",
+"C2549T",
+"T3019C",
+"G3452A",
+"C3718T",
+"T6020C"
+]
+}
+}
+},
+{
+"name": "NODE_0000007",
+"node_attrs": {
+"num_date": {
+"value": 2013.409283224102
+},
+"div": 0.0013703084614185845,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G782A"
+]
+}
+},
+"children": [
+{
+"name": "PF13/251013_18|KX369547|2013-10-25|french_polynesia",
+"node_attrs": {
+"num_date": {
+"value": 2013.8150684931506
+},
+"div": 0.0019260422020868453,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G71A",
+"T73G",
+"A77T",
+"T78A",
+"T876C",
+"A2925G"
+]
+}
+}
+},
+{
+"name": "1_0181_PF|KX447512|2013-12-15|french_polynesia",
+"node_attrs": {
+"num_date": {
+"value": 2013.954794520548
+},
+"div": 0.001555453991482585,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G1844A",
+"T1991C"
+]
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000008",
+"node_attrs": {
+"num_date": {
+"value": 2013.5495426845582
+},
+"div": 0.0013703081680459714,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C8765T"
+]
+}
+},
+"children": [
+{
+"name": "1_0134_PF|KX447513|2013-12-15|french_polynesia",
+"node_attrs": {
+"num_date": {
+"value": 2013.954794520548
+},
+"div": 0.0017406542114137536,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A3188G",
+"G4142A",
+"T7586C",
+"G8786A"
+]
+}
+}
+},
+{
+"name": "1_0199_PF|KX447519|2013-11-15|french_polynesia",
+"node_attrs": {
+"num_date": {
+"value": 2013.872602739726
+},
+"div": 0.0014628736700357575,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A4244G"
+]
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000001",
+"node_attrs": {
+"num_date": {
+"value": 2013.3913829151795
+},
+"div": 0.0013703092606784685,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A1175G"
+]
+}
+},
+"children": [
+{
+"name": "1_0038_PF|KX447517|2014-01-15|french_polynesia",
+"node_attrs": {
+"num_date": {
+"value": 2014.0397260273974
+},
+"div": 0.0026675719501921755,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T398C",
+"T608C",
+"C683T",
+"A1512G",
+"C1904T",
+"C2066T",
+"T2374C",
+"T3362C",
+"T3722C",
+"G3743T",
+"T5000C",
+"C5369T",
+"T7058C",
+"A9365G"
+]
+}
+}
+},
+{
+"name": "1_0111_PF|KX447516|2014-01-15|french_polynesia",
+"node_attrs": {
+"num_date": {
+"value": 2014.0397260273974
+},
+"div": 0.0020186391776615313,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C917T",
+"C927A",
+"A2384G",
+"C2820T",
+"C4260T",
+"T8123C",
+"T8895C"
+]
+}
+}
+},
+{
+"name": "1_0030_PF|KX447515|2013-11-15|french_polynesia",
+"node_attrs": {
+"num_date": {
+"value": 2013.872602739726
+},
+"div": 0.001833335312368448,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G455A",
+"C2178T",
+"T2555C",
+"G7265T",
+"T8753A"
+]
+}
+}
+},
+{
+"name": "NODE_0000002",
+"node_attrs": {
+"num_date": {
+"value": 2013.5798831530094
+},
+"div": 0.001462876757213365,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A3656G"
+]
+}
+},
+"children": [
+{
+"name": "1_0035_PF|KX447514|2014-01-15|french_polynesia",
+"node_attrs": {
+"num_date": {
+"value": 2014.0397260273974
+},
+"div": 0.0019258422187192104,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G1310A",
+"C1853T",
+"C4270T",
+"C6251T",
+"C8498T"
+]
+}
+}
+},
+{
+"name": "1_0080_PF|KX447521|2014-02-15|french_polynesia",
+"node_attrs": {
+"num_date": {
+"value": 2014.1246575342466
+},
+"div": 0.0018332270472838348,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C4031T",
+"C6902T",
+"C7382T",
+"A7436G"
+]
+}
+}
+},
+{
+"name": "H/PF/2013|KJ776791|2013-11-28|french_polynesia",
+"node_attrs": {
+"num_date": {
+"value": 2013.9082191780822
+},
+"div": 0.0017406453308932606,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T527C",
+"C2480T",
+"T7517G"
+]
+}
+}
+},
+{
+"name": "1_0087_PF|KX447509|2013-12-15|french_polynesia",
+"node_attrs": {
+"num_date": {
+"value": 2013.954794520548
+},
+"div": 0.001648024548276307,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C3450T",
+"G8495A"
+]
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000003",
+"node_attrs": {
+"num_date": {
+"value": 2015.6757897535795
+},
+"div": 0.003689065551796876,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T266C",
+"G433A",
+"C806T",
+"T2049C",
+"T2093C",
+"A2233G",
+"T3338C",
+"G3460A",
+"C4445T",
+"T4619A",
+"A4688G",
+"T4757C",
+"T5303C",
+"T5693C",
+"T6422C",
+"C6492T",
+"T7043C",
+"G7247A",
+"C8162T",
+"C8765T",
+"A9538G",
+"T9612C",
+"A9676G",
+"A9728G",
+"A9785G"
+]
+}
+},
+"children": [
+{
+"name": "NODE_0000004",
+"node_attrs": {
+"num_date": {
+"value": 2016.1211344894227
+},
+"div": 0.0038742429994291475,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.865
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T8669C",
+"C10613T"
+]
+}
+},
+"children": [
+{
+"name": "SMGC_1|KX266255|2016-02-14|china",
+"node_attrs": {
+"num_date": {
+"value": 2016.1215846994535
+},
+"div": 0.0038742429994291475,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000061",
+"node_attrs": {
+"num_date": {
+"value": 2016.127049180328
+},
+"div": 0.0038742429994291475,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "Z16006|KU955589|2016-02-16|china",
+"node_attrs": {
+"num_date": {
+"value": 2016.127049180328
+},
+"div": 0.0038742429994291475,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "ZKC2/2016|KX253996|2016-02-16|china",
+"node_attrs": {
+"num_date": {
+"value": 2016.127049180328
+},
+"div": 0.0038742429994291475,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000005",
+"node_attrs": {
+"num_date": {
+"value": 2016.0295384548872
+},
+"div": 0.004152215466475489,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.993
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T4G",
+"G5T",
+"T7G",
+"G8T",
+"A9T"
+]
+}
+},
+"children": [
+{
+"name": "SZ01/2016/China|KU866423|2016-07-01|american_samoa",
+"node_attrs": {
+"num_date": {
+"value": 2016.4986338797814
+},
+"div": 0.004337398644568544,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T3395A",
+"C8222T"
+]
+}
+}
+},
+{
+"name": "Zhejiang04|KX117076|2016-02-17|china",
+"node_attrs": {
+"num_date": {
+"value": 2016.129781420765
+},
+"div": 0.004337379059772069,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G4688A",
+"G9728A"
+]
+}
+}
+},
+{
+"name": "SZ_WIV01|KU963796|2016-07-01|american_samoa",
+"node_attrs": {
+"num_date": {
+"value": 2016.4986338797814
+},
+"div": 0.0043373803385222355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T10387C",
+"C10388T"
+]
+}
+}
+},
+{
+"name": "ZJ03|KU820899|2016-02-17|china",
+"node_attrs": {
+"num_date": {
+"value": 2016.129781420765
+},
+"div": 0.004244790571040997,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G8276A"
+]
+}
+}
+},
+{
+"name": "CN/SZ02/2016|KX185891|2016-02-17|american_samoa",
+"node_attrs": {
+"num_date": {
+"value": 2016.129781420765
+},
+"div": 0.004152215466475489,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000009",
+"node_attrs": {
+"num_date": {
+"value": 2013.1124200591532
+},
+"div": 0.001,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "1_0049_PF|KX447510|2013-12-15|french_polynesia",
+"node_attrs": {
+"num_date": {
+"value": 2013.954794520548
+},
+"div": 0.0013703770607528891,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A119T",
+"A281T",
+"C4076T",
+"C6128T"
+]
+}
+}
+},
+{
+"name": "1_0117_PF|KX447518|2013-12-15|french_polynesia",
+"node_attrs": {
+"num_date": {
+"value": 2013.954794520548
+},
+"div": 0.0012777466388018115,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A692G",
+"T3380C",
+"G7598A"
+]
+}
+}
+},
+{
+"name": "NODE_0000010",
+"node_attrs": {
+"num_date": {
+"value": 2013.503128677752
+},
+"div": 0.0013703556125134726,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.982
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T7517C",
+"A8007G",
+"G9434A",
+"G10392A"
+]
+}
+},
+"children": [
+{
+"name": "NODE_0000011",
+"node_attrs": {
+"num_date": {
+"value": 2013.7653657837636
+},
+"div": 0.0015555057237580494,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.865
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A3534G",
+"G6983A"
+]
+}
+},
+"children": [
+{
+"name": "NODE_0000012",
+"node_attrs": {
+"num_date": {
+"value": 2013.9856972980092
+},
+"div": 0.001648072920996218,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C8867T"
+]
+}
+},
+"children": [
+{
+"name": "Paraiba_01|KX280026|2015-07-01|brazil",
+"node_attrs": {
+"num_date": {
+"value": 2015.4972602739726
+},
+"div": 0.00248176873473548,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C836T",
+"G923A",
+"T3137C",
+"A5438G",
+"C6320T",
+"T6959C",
+"G7493A",
+"T8408A",
+"A9560G"
+]
+}
+}
+},
+{
+"name": "NODE_0000013",
+"node_attrs": {
+"num_date": {
+"value": 2016.1161618311355
+},
+"div": 0.0029457291000640116,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T1292C",
+"T1875C",
+"A2771G",
+"A3797G",
+"G4988T",
+"C5549T",
+"G5768A",
+"G6470C",
+"A6890G",
+"C8249A",
+"T8570C",
+"G9950T",
+"C10115T",
+"T10389C"
+]
+}
+},
+"children": [
+{
+"name": "Ecuador/EC062/2016|Ecuador/EC062/2016|2016-04-15|ecuador",
+"node_attrs": {
+"num_date": {
+"value": 2016.2882513661202
+},
+"div": 0.003130856795969904,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T2426C",
+"A9437G"
+]
+}
+}
+},
+{
+"name": "Ecuador/EC089/2016|Ecuador/EC089/2016|2016-04-15|ecuador",
+"node_attrs": {
+"num_date": {
+"value": 2016.2882513661202
+},
+"div": 0.003038285501486497,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T6728C"
+]
+}
+}
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000014",
+"node_attrs": {
+"num_date": {
+"value": 2013.8664158933057
+},
+"div": 0.0016480741997233579,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T2375C"
+]
+}
+},
+"children": [
+{
+"name": "NODE_0000015",
+"node_attrs": {
+"num_date": {
+"value": 2013.9699104816962
+},
+"div": 0.0017406437615853207,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A2681G"
+]
+}
+},
+"children": [
+{
+"name": "Rio_S1|KU926310|2016-01-29|brazil",
+"node_attrs": {
+"num_date": {
+"value": 2016.077868852459
+},
+"div": 0.0035947191174103355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T485C",
+"A1265G",
+"C1607T",
+"A1980G",
+"T1991C",
+"T2060C",
+"C2579T",
+"T5207C",
+"T5495C",
+"C6056T",
+"G6471A",
+"C6618T",
+"G6641A",
+"C6660T",
+"C7067T",
+"G7862A",
+"T8170C",
+"T8237C",
+"C9515T",
+"T10805C"
+]
+}
+}
+},
+{
+"name": "Natal_RGN|KU527068|2015-07-01|brazil",
+"node_attrs": {
+"num_date": {
+"value": 2015.4972602739726
+},
+"div": 0.0033164543304774734,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G254A",
+"T1616C",
+"C2724T",
+"A2925G",
+"A3059G",
+"G3140A",
+"A3186G",
+"A3218T",
+"A3332G",
+"T3731C",
+"C5937T",
+"C7451A",
+"C7633T",
+"C7805T",
+"T9305C",
+"C9353T",
+"C10561T"
+]
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000016",
+"node_attrs": {
+"num_date": {
+"value": 2014.0606342714605
+},
+"div": 0.0018332263891694806,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.865
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C2717T",
+"T8045C"
+]
+}
+},
+"children": [
+{
+"name": "BeH823339|KU729217|2015-07-01|brazil",
+"node_attrs": {
+"num_date": {
+"value": 2015.4972602739726
+},
+"div": 0.0032234562855218045,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A1116T",
+"T1167A",
+"G1181A",
+"T1741C",
+"A2768G",
+"G3058A",
+"G3497A",
+"G4319A",
+"T5420C",
+"C7511T",
+"T8207C",
+"C8250T",
+"A8505G",
+"A8942G",
+"T9366C"
+]
+}
+}
+},
+{
+"name": "NODE_0000017",
+"node_attrs": {
+"num_date": {
+"value": 2015.3401824407495
+},
+"div": 0.0031305758398758026,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T506C",
+"T2060C",
+"T2435C",
+"C2861T",
+"C5249T",
+"C5369T",
+"T5840C",
+"C6278T",
+"T6908C",
+"G8621A",
+"A8631G",
+"C9287T",
+"G9311A",
+"T10301G"
+]
+}
+},
+"children": [
+{
+"name": "Dominican_Republic/2016/PD1|KU853012|2016-02-01|dominican_republic",
+"node_attrs": {
+"num_date": {
+"value": 2016.0860655737704
+},
+"div": 0.0035936170023939343,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A1445T",
+"G4325A",
+"T5459C",
+"T6807C",
+"A10193G"
+]
+}
+}
+},
+{
+"name": "NODE_0000018",
+"node_attrs": {
+"num_date": {
+"value": 2015.435176610153
+},
+"div": 0.0032231505552342186,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C10090T"
+]
+}
+},
+"children": [
+{
+"name": "PHE_semen_Guadeloupe|KX673530|2016-04-21|guadeloupe",
+"node_attrs": {
+"num_date": {
+"value": 2016.3046448087432
+},
+"div": 0.004335054842284414,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A1145G",
+"T2270C",
+"A3833G",
+"A4061T",
+"G4166A",
+"T5198C",
+"A6983G",
+"T7358C",
+"A8018G",
+"A8258G",
+"C9120T",
+"T10013C"
+]
+}
+}
+},
+{
+"name": "Cuba/ZF10/2016|Cuba/ZF10/2016|2016-06-02|cuba",
+"node_attrs": {
+"num_date": {
+"value": 2016.4193989071039
+},
+"div": 0.004056888997750871,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T548C",
+"C935T",
+"T1064C",
+"T1541G",
+"C2255T",
+"G6899A",
+"G8099A",
+"G9344A",
+"T10337C"
+]
+}
+}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000019",
+"node_attrs": {
+"num_date": {
+"value": 2013.6011866716694
+},
+"div": 0.0014629228097516414,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C5447T"
+]
+}
+},
+"children": [
+{
+"name": "BeH828305|KU729218|2015-07-01|brazil",
+"node_attrs": {
+"num_date": {
+"value": 2015.4972602739726
+},
+"div": 0.0026673898931285234,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G420A",
+"C617T",
+"C1691T",
+"T2023C",
+"T5042C",
+"T5614C",
+"A7625G",
+"C7730T",
+"T8312C",
+"A9038G",
+"C9371T",
+"A9659G",
+"C9707T"
+]
+}
+}
+},
+{
+"name": "NODE_0000020",
+"node_attrs": {
+"num_date": {
+"value": 2014.5206797326607
+},
+"div": 0.0025748624512664285,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G1796A",
+"A1982T",
+"T2132C",
+"C4008T",
+"C6401T",
+"T6606A",
+"G6647A",
+"T7887C",
+"C8159T",
+"A9560C",
+"T9591C",
+"T10013C"
+]
+}
+},
+"children": [
+{
+"name": "Bahia02|KX101060|2015-05-15|brazil",
+"node_attrs": {
+"num_date": {
+"value": 2015.368493150685
+},
+"div": 0.0029451890132063526,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C1313T",
+"G6306A",
+"G7016A",
+"T9500C"
+]
+}
+}
+},
+{
+"name": "NODE_0000021",
+"node_attrs": {
+"num_date": {
+"value": 2014.753052319323
+},
+"div": 0.002852616576663729,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.95
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C1903A",
+"C7505T",
+"A8631G"
+]
+}
+},
+"children": [
+{
+"name": "Bahia01|KX101066|2015-05-15|brazil",
+"node_attrs": {
+"num_date": {
+"value": 2015.368493150685
+},
+"div": 0.0037790123286958787,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A3061G",
+"T4367C",
+"A4972G",
+"T6401C",
+"A6467G",
+"G7016A",
+"T7755A",
+"C10013T",
+"C10165T",
+"G10373A"
+]
+}
+}
+},
+{
+"name": "NODE_0000022",
+"node_attrs": {
+"num_date": {
+"value": 2014.8619269943274
+},
+"div": 0.0029451830117729052,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A10386G"
+]
+}
+},
+"children": [
+{
+"name": "Bahia11|KX101064|2015-04-15|brazil",
+"node_attrs": {
+"num_date": {
+"value": 2015.286301369863
+},
+"div": 0.0031303504537966396,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A2427G",
+"C9893A"
+]
+}
+}
+},
+{
+"name": "Bahia15|KX101065|2016-01-15|brazil",
+"node_attrs": {
+"num_date": {
+"value": 2016.0396174863388
+},
+"div": 0.0029451830117729052,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000023",
+"node_attrs": {
+"num_date": {
+"value": 2015.0063712986225
+},
+"div": 0.003130332828002458,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.865
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T6474C",
+"T8895C"
+]
+}
+},
+"children": [
+{
+"name": "Bahia03|KX101061|2015-05-15|brazil",
+"node_attrs": {
+"num_date": {
+"value": 2015.368493150685
+},
+"div": 0.003593316871514222,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G1044A",
+"T4235C",
+"C7887T",
+"T8159C",
+"C10013T"
+]
+}
+}
+},
+{
+"name": "NODE_0000024",
+"node_attrs": {
+"num_date": {
+"value": 2015.2005388843065
+},
+"div": 0.0033154855733139505,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.865
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T1180C",
+"G4047A"
+]
+}
+},
+"children": [
+{
+"name": "Bahia04|KX101062|2015-06-15|brazil",
+"node_attrs": {
+"num_date": {
+"value": 2015.4534246575342
+},
+"div": 0.0036859044751875593,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C778A",
+"T779C",
+"A780C",
+"C3550T"
+]
+}
+}
+},
+{
+"name": "Bahia08|KU940227|2015-07-15|brazil",
+"node_attrs": {
+"num_date": {
+"value": 2015.535616438356
+},
+"div": 0.0033154855733139505,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "Bahia05|KX101063|2015-12-15|brazil",
+"node_attrs": {
+"num_date": {
+"value": 2015.954794520548
+},
+"div": 0.0033154855733139505,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000025",
+"node_attrs": {
+"num_date": {
+"value": 2015.1717371885054
+},
+"div": 0.003315495048286577,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.865
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A1903C",
+"A4972G"
+]
+}
+},
+"children": [
+{
+"name": "Bahia12|KX101067|2015-05-15|brazil",
+"node_attrs": {
+"num_date": {
+"value": 2015.368493150685
+},
+"div": 0.003315495048286577,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "Bahia07|KU940228|2015-07-01|brazil",
+"node_attrs": {
+"num_date": {
+"value": 2015.4972602739726
+},
+"div": 0.003315495048286577,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000026",
+"node_attrs": {
+"num_date": {
+"value": 2015.2814169324909
+},
+"div": 0.0035006593753014953,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.865
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T78A",
+"T4235C"
+]
+}
+},
+"children": [
+{
+"name": "HS_2015_BA_01|KX520666|2015-07-01|brazil",
+"node_attrs": {
+"num_date": {
+"value": 2015.4972602739726
+},
+"div": 0.003963733832819797,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T73G",
+"A77T",
+"A924C",
+"C3800T",
+"C3895T"
+]
+}
+}
+},
+{
+"name": "Bahia09|KU940224|2015-08-01|brazil",
+"node_attrs": {
+"num_date": {
+"value": 2015.5821917808219
+},
+"div": 0.0035006593753014953,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000027",
+"node_attrs": {
+"num_date": {
+"value": 2013.9262757220063
+},
+"div": 0.0019261491968804087,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.998
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G8A",
+"A9C",
+"C11G",
+"G13T",
+"C2534T",
+"T3989C"
+]
+}
+},
+"children": [
+{
+"name": "NODE_0000028",
+"node_attrs": {
+"num_date": {
+"value": 2014.0368066603235
+},
+"div": 0.0020187104982273803,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A1061G"
+]
+}
+},
+"children": [
+{
+"name": "Brazil_ZKV2015|KU497555|2015-11-30|brazil",
+"node_attrs": {
+"num_date": {
+"value": 2015.9136986301369
+},
+"div": 0.004152324181313244,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A8C",
+"T10A",
+"G11A",
+"T13C",
+"T398C",
+"T443C",
+"C1533T",
+"G1756C",
+"C2603T",
+"C2714T",
+"C3882T",
+"T4472C",
+"C5081A",
+"T5495C",
+"T6026C",
+"T8207C",
+"G8558A",
+"A8599T",
+"G8840A",
+"C10268T",
+"A10378G",
+"C10451T",
+"A10467T"
+]
+}
+}
+},
+{
+"name": "Brazil/2016/INMI1|KU991811|2016-03-06|brazil",
+"node_attrs": {
+"num_date": {
+"value": 2016.1789617486338
+},
+"div": 0.00294495403793967,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C2501T",
+"C2684T",
+"A3282G",
+"T4697C",
+"A4859G",
+"G5144T",
+"C8489T",
+"C9287T",
+"A9953G",
+"C10450T"
+]
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000029",
+"node_attrs": {
+"num_date": {
+"value": 2014.0851760430776
+},
+"div": 0.00211133735744408,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.865
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T14G",
+"G15C"
+]
+}
+},
+"children": [
+{
+"name": "NODE_0000030",
+"node_attrs": {
+"num_date": {
+"value": 2014.718094359213
+},
+"div": 0.0029449586425135616,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A19C",
+"T2534C",
+"T2853C",
+"C3989T",
+"A4193G",
+"C5676T",
+"A6992G",
+"A7229G",
+"A9434G"
+]
+}
+},
+"children": [
+{
+"name": "Haiti/1/2016|KX051563|2016-02-05|haiti",
+"node_attrs": {
+"num_date": {
+"value": 2016.0969945355191
+},
+"div": 0.003685911777947443,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T1616C",
+"C2724T",
+"A3059G",
+"A3332G",
+"T3731C",
+"C5937T",
+"C7451A",
+"C10561T"
+]
+}
+}
+},
+{
+"name": "NODE_0000031",
+"node_attrs": {
+"num_date": {
+"value": 2014.9465753424658
+},
+"div": 0.0032226797114592518,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.95
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G254A",
+"C1313T",
+"A7442G"
+]
+}
+},
+"children": [
+{
+"name": "Haiti/1225/2014|KU509998|2014-12-12|haiti",
+"node_attrs": {
+"num_date": {
+"value": 2014.9465753424658
+},
+"div": 0.0032226797114592518,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000032",
+"node_attrs": {
+"num_date": {
+"value": 2015.2013698630137
+},
+"div": 0.0036856137407372393,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.993
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A419G",
+"G1044A",
+"C8777T",
+"G9434A",
+"T9557C"
+]
+}
+},
+"children": [
+{
+"name": "Brazil/PE243/2015|KX197192|2015-07-01|brazil",
+"node_attrs": {
+"num_date": {
+"value": 2015.4972602739726
+},
+"div": 0.004612553292237605,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A8G",
+"C9A",
+"G11C",
+"T13G",
+"G14T",
+"C15G",
+"C19A",
+"A2784G",
+"T5231C",
+"A7637G"
+]
+}
+}
+},
+{
+"name": "SPH2015|KU321639|2015-03-15|brazil",
+"node_attrs": {
+"num_date": {
+"value": 2015.2013698630137
+},
+"div": 0.0036856137407372393,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000033",
+"node_attrs": {
+"num_date": {
+"value": 2014.782217384782
+},
+"div": 0.002852298974891343,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T428A",
+"T755C",
+"C875T",
+"G881T",
+"C1398T",
+"C3459T",
+"C6008T",
+"A10164G"
+]
+}
+},
+"children": [
+{
+"name": "NODE_0000034",
+"node_attrs": {
+"num_date": {
+"value": 2014.8798802943934
+},
+"div": 0.0029448567631267086,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C3902T"
+]
+}
+},
+"children": [
+{
+"name": "COL/FCC00093/2015|KX548902|2015-10-07|colombia",
+"node_attrs": {
+"num_date": {
+"value": 2015.7657534246575
+},
+"div": 0.00414935990647711,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C2291T",
+"C2378T",
+"A2450G",
+"C3345T",
+"A3390C",
+"C3391T",
+"G3802A",
+"C3864T",
+"A5445C",
+"T5448G",
+"C8033T",
+"G10192A",
+"G10685A"
+]
+}
+}
+},
+{
+"name": "NODE_0000035",
+"node_attrs": {
+"num_date": {
+"value": 2015.954794520548
+},
+"div": 0.00359310943715572,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.999
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T902G",
+"T2006C",
+"G3170A",
+"T3784C",
+"C4268T",
+"T4448C",
+"G7196A"
+]
+}
+},
+"children": [
+{
+"name": "MEX/InDRE/Sm/2016|KU922960|2016-02-25|mexico",
+"node_attrs": {
+"num_date": {
+"value": 2016.1516393442623
+},
+"div": 0.003963535162760767,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C4930A",
+"C8534A",
+"G9196T",
+"A9209G"
+]
+}
+}
+},
+{
+"name": "MRS_OPY_Martinique_PaRi_2015|KU647676|2015-12-15|martinique",
+"node_attrs": {
+"num_date": {
+"value": 2015.954794520548
+},
+"div": 0.00359310943715572,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000036",
+"node_attrs": {
+"num_date": {
+"value": 2014.996081694473
+},
+"div": 0.0030374295177016393,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.865
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A3911G",
+"C9296T"
+]
+}
+},
+"children": [
+{
+"name": "PAN/BEI_259634_V4/2016|KX198135|2016-07-01|panama",
+"node_attrs": {
+"num_date": {
+"value": 2016.4986338797814
+},
+"div": 0.003592987190824518,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G455T",
+"C1433T",
+"T4070C",
+"C7214T",
+"C9809T",
+"A10493G"
+]
+}
+}
+},
+{
+"name": "NODE_0000037",
+"node_attrs": {
+"num_date": {
+"value": 2015.1807857775218
+},
+"div": 0.003222561893354919,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.865
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T1046C",
+"T3722C"
+]
+}
+},
+"children": [
+{
+"name": "NODE_0000038",
+"node_attrs": {
+"num_date": {
+"value": 2015.7431910632422
+},
+"div": 0.0038708003181916455,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.999
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G39A",
+"A51T",
+"G56A",
+"A3767G",
+"G3788A",
+"C7073T",
+"T10361C"
+]
+}
+},
+"children": [
+{
+"name": "PAN/CDC_259249_V1_V3/2015|KX156775|2015-12-11|panama",
+"node_attrs": {
+"num_date": {
+"value": 2015.9438356164383
+},
+"div": 0.004148501840056078,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T491C",
+"C2662T",
+"T7313C"
+]
+}
+}
+},
+{
+"name": "PAN/CDC_259359_V1_V3/2015|KX156774|2015-12-18|panama",
+"node_attrs": {
+"num_date": {
+"value": 2015.9630136986302
+},
+"div": 0.004055919992460171,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T2555C",
+"G4319A"
+]
+}
+}
+},
+{
+"name": "PAN/CDC_259364_V1_V2/2015|KX156776|2015-12-18|panama",
+"node_attrs": {
+"num_date": {
+"value": 2015.9630136986302
+},
+"div": 0.003963353466977227,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A2925G"
+]
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000039",
+"node_attrs": {
+"num_date": {
+"value": 2015.7866031553624
+},
+"div": 0.0037782216201662617,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.998
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G2912A",
+"T3821C",
+"C4328T",
+"T4622G",
+"C6660T",
+"T8879G"
+]
+}
+},
+"children": [
+{
+"name": "COL/UF_1/2016|KX247646|2016-02-09|colombia",
+"node_attrs": {
+"num_date": {
+"value": 2016.1079234972678
+},
+"div": 0.0039633889321971675,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A19C",
+"G10164A"
+]
+}
+}
+},
+{
+"name": "NODE_0000040",
+"node_attrs": {
+"num_date": {
+"value": 2015.954794520548
+},
+"div": 0.003963381297110975,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.865
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T1523C",
+"G10736A"
+]
+}
+},
+"children": [
+{
+"name": "FLR|KU820897|2015-12-15|colombia",
+"node_attrs": {
+"num_date": {
+"value": 2015.954794520548
+},
+"div": 0.003963381297110975,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "COL/FLR/2015|KX087102|2015-12-15|colombia",
+"node_attrs": {
+"num_date": {
+"value": 2015.954794520548
+},
+"div": 0.003963381297110975,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000041",
+"node_attrs": {
+"num_date": {
+"value": 2013.616761728993
+},
+"div": 0.001462924010630748,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A5315G"
+]
+}
+},
+"children": [
+{
+"name": "NODE_0000042",
+"node_attrs": {
+"num_date": {
+"value": 2013.741389559986
+},
+"div": 0.0015554923475978365,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G4784A"
+]
+}
+},
+"children": [
+{
+"name": "Rio_U1|KU926309|2016-01-14|brazil",
+"node_attrs": {
+"num_date": {
+"value": 2016.0368852459017
+},
+"div": 0.0029456321242762318,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T506C",
+"A818G",
+"C1088T",
+"A1646G",
+"T2405C",
+"T2765G",
+"G4319A",
+"C4568T",
+"A4706G",
+"A6223G",
+"C6645T",
+"T7889C",
+"T8882C",
+"T9689C",
+"C9977T"
+]
+}
+}
+},
+{
+"name": "NODE_0000043",
+"node_attrs": {
+"num_date": {
+"value": 2014.683648565157
+},
+"div": 0.002296600728632853,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G2788C",
+"G3617A",
+"G3863A",
+"G5195A",
+"A6327C",
+"T6725C",
+"C6737T",
+"C9240T"
+]
+}
+},
+"children": [
+{
+"name": "FB_GWUH_2016|KU870645|2016-02-02|guatemala",
+"node_attrs": {
+"num_date": {
+"value": 2016.0887978142077
+},
+"div": 0.004058637173871949,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A9C",
+"C11G",
+"C381T",
+"A629G",
+"T861C",
+"C941T",
+"T1871C",
+"G2148A",
+"A3168C",
+"A4317G",
+"C5975T",
+"A6309G",
+"A6461G",
+"C7787T",
+"G8142A",
+"C8696T",
+"G10803C",
+"G10804A",
+"T10805G"
+]
+}
+}
+},
+{
+"name": "NODE_0000044",
+"node_attrs": {
+"num_date": {
+"value": 2015.8342465753424
+},
+"div": 0.003130112325308844,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G1143A",
+"A1706G",
+"A2330T",
+"C6492T",
+"G6983A",
+"C7766T",
+"T8111C",
+"A8188G",
+"G9455A"
+]
+}
+},
+"children": [
+{
+"name": "V103344|KU501216|2015-12-01|guatemala",
+"node_attrs": {
+"num_date": {
+"value": 2015.9164383561645
+},
+"div": 0.0032226568778945175,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C7607T"
+]
+}
+}
+},
+{
+"name": "V8375|KU501217|2015-11-01|guatemala",
+"node_attrs": {
+"num_date": {
+"value": 2015.8342465753424
+},
+"div": 0.003130112325308844,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000045",
+"node_attrs": {
+"num_date": {
+"value": 2015.9113442782736
+},
+"div": 0.0027595374523677815,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.993
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T4571C",
+"T6338C",
+"T6785C",
+"A8036T",
+"T10393C"
+]
+}
+},
+"children": [
+{
+"name": "HND/R103451/2015|KX694534|2016-07-01|honduras",
+"node_attrs": {
+"num_date": {
+"value": 2016.4986338797814
+},
+"div": 0.0030372497068376584,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A2305G",
+"A3013C",
+"G4215A"
+]
+}
+}
+},
+{
+"name": "V103451|KX262887|2016-01-06|honduras",
+"node_attrs": {
+"num_date": {
+"value": 2016.0150273224044
+},
+"div": 0.00285209007205205,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T7619C"
+]
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000046",
+"node_attrs": {
+"num_date": {
+"value": 2015.4409886571189
+},
+"div": 0.0030374397829133946,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T1115C",
+"T2978C",
+"A4607G",
+"G4731A",
+"T5087C",
+"T7307C",
+"A8480G",
+"C9246T"
+]
+}
+},
+"children": [
+{
+"name": "Aedessp/MEX/MEX_2_81/2016|KX446950|2016-01-01|mexico",
+"node_attrs": {
+"num_date": {
+"value": 2016.0013661202186
+},
+"div": 0.003593004423489847,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T637C",
+"G968A",
+"C2192T",
+"A3282G",
+"A7223G",
+"T7667C"
+]
+}
+}
+},
+{
+"name": "NODE_0000047",
+"node_attrs": {
+"num_date": {
+"value": 2015.872602739726
+},
+"div": 0.0034077637565107155,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.982
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A5507G",
+"T8804C",
+"A8818G",
+"T10774C"
+]
+}
+},
+"children": [
+{
+"name": "Aedessp/MEX/MEX_I_7/2016|KX446951|2016-01-01|mexico",
+"node_attrs": {
+"num_date": {
+"value": 2016.0013661202186
+},
+"div": 0.003592898995247447,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C947T",
+"C3895T"
+]
+}
+}
+},
+{
+"name": "MEX_I_7|KX247632|2015-11-15|mexico",
+"node_attrs": {
+"num_date": {
+"value": 2015.872602739726
+},
+"div": 0.0034077637565107155,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000048",
+"node_attrs": {
+"num_date": {
+"value": 2014.0773336187099
+},
+"div": 0.001925905769402687,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.993
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G1475A",
+"C1904T",
+"T3566C",
+"T6671C",
+"C9242T"
+]
+}
+},
+"children": [
+{
+"name": "NODE_0000049",
+"node_attrs": {
+"num_date": {
+"value": 2015.1376707654413
+},
+"div": 0.002759516205456239,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T1034C",
+"C1433T",
+"C6803T",
+"A8213G",
+"C8327T",
+"C8978T",
+"G9344A",
+"T10181C",
+"A10386G"
+]
+}
+},
+"children": [
+{
+"name": "BeH819966|KU365779|2015-07-01|brazil",
+"node_attrs": {
+"num_date": {
+"value": 2015.4972602739726
+},
+"div": 0.002759516205456239,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "SSABR1|KU707826|2015-07-01|brazil",
+"node_attrs": {
+"num_date": {
+"value": 2015.4972602739726
+},
+"div": 0.002759516205456239,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000050",
+"node_attrs": {
+"num_date": {
+"value": 2015.3944914737692
+},
+"div": 0.0031298696999906184,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.982
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C863T",
+"T5267C",
+"T5270C",
+"A8439G"
+]
+}
+},
+"children": [
+{
+"name": "BeH815744|KU365780|2015-07-01|brazil",
+"node_attrs": {
+"num_date": {
+"value": 2015.4972602739726
+},
+"div": 0.003315018298626936,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C10181T",
+"G10386A"
+]
+}
+}
+},
+{
+"name": "BeH818995|KU365777|2015-07-01|brazil",
+"node_attrs": {
+"num_date": {
+"value": 2015.4972602739726
+},
+"div": 0.0031298696999906184,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000051",
+"node_attrs": {
+"num_date": {
+"value": 2014.2688293765768
+},
+"div": 0.002111055541422478,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.865
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T7094C",
+"C9296T"
+]
+}
+},
+"children": [
+{
+"name": "Z1106033|KU312312|2015-10-02|suriname",
+"node_attrs": {
+"num_date": {
+"value": 2015.7520547945205
+},
+"div": 0.003315700582677895,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T604C",
+"C1073T",
+"T1523G",
+"T1611C",
+"T2321C",
+"A2412G",
+"A3368G",
+"C3615T",
+"A5027T",
+"A5417G",
+"T5546C",
+"G6350A",
+"C9605T"
+]
+}
+}
+},
+{
+"name": "NODE_0000052",
+"node_attrs": {
+"num_date": {
+"value": 2014.3677695989854
+},
+"div": 0.002203624017387787,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T3593C"
+]
+}
+},
+"children": [
+{
+"name": "NODE_0000053",
+"node_attrs": {
+"num_date": {
+"value": 2015.331016421809
+},
+"div": 0.0033154780335288144,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C767T",
+"T1814A",
+"C2549T",
+"A3960G",
+"G4001A",
+"C5435T",
+"G6599A",
+"T8207C",
+"T8467C",
+"A9107G",
+"C9809T",
+"C10319T"
+]
+}
+},
+"children": [
+{
+"name": "NODE_0000054",
+"node_attrs": {
+"num_date": {
+"value": 2016.0303553221217
+},
+"div": 0.003963843203257931,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.999
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T1040C",
+"T1658A",
+"T3999C",
+"C5480T",
+"C6071T",
+"C6878T",
+"G7868T"
+]
+}
+},
+"children": [
+{
+"name": "Z16019|KU955590|2016-02-26|china",
+"node_attrs": {
+"num_date": {
+"value": 2016.1543715846994
+},
+"div": 0.004148996239278389,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C3593T",
+"A10094G"
+]
+}
+}
+},
+{
+"name": "GZ02/2016|KX056898|2016-02-25|china",
+"node_attrs": {
+"num_date": {
+"value": 2016.1516393442623
+},
+"div": 0.003963843203257931,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000055",
+"node_attrs": {
+"num_date": {
+"value": 2015.9122713523411
+},
+"div": 0.003963780020669779,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.999
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C896T",
+"G1361A",
+"T3011C",
+"A3302G",
+"T4697C",
+"T7211C",
+"C8353T"
+]
+}
+},
+"children": [
+{
+"name": "GZ01|KU820898|2016-02-14|china",
+"node_attrs": {
+"num_date": {
+"value": 2016.1215846994535
+},
+"div": 0.004241570971275572,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T428A",
+"G9107A",
+"T10319C"
+]
+}
+}
+},
+{
+"name": "NODE_0000056",
+"node_attrs": {
+"num_date": {
+"value": 2016.1161202185792
+},
+"div": 0.004056353555937745,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T266C"
+]
+}
+},
+"children": [
+{
+"name": "GD01|KU740184|2016-02-15|china",
+"node_attrs": {
+"num_date": {
+"value": 2016.1243169398906
+},
+"div": 0.004056353555937745,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "GDZ16001|KU761564|2016-02-12|china",
+"node_attrs": {
+"num_date": {
+"value": 2016.1161202185792
+},
+"div": 0.004056353555937745,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000057",
+"node_attrs": {
+"num_date": {
+"value": 2014.5760144344051
+},
+"div": 0.0023887968923920035,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.865
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T5156C",
+"T6629A"
+]
+}
+},
+"children": [
+{
+"name": "BeH819015|KU365778|2015-07-01|brazil",
+"node_attrs": {
+"num_date": {
+"value": 2015.4972602739726
+},
+"div": 0.0035006347237664,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G323T",
+"A2456G",
+"G4202A",
+"C4553T",
+"G5126A",
+"C6335T",
+"T8094C",
+"C9026T",
+"G9737A",
+"A9953G",
+"C10541T",
+"T10649C"
+]
+}
+}
+},
+{
+"name": "NODE_0000058",
+"node_attrs": {
+"num_date": {
+"value": 2014.926542435339
+},
+"div": 0.002573965918974518,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.865
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A2621G",
+"A6776G"
+]
+}
+},
+"children": [
+{
+"name": "NL00013|KU937936|2016-02-11|suriname",
+"node_attrs": {
+"num_date": {
+"value": 2016.113387978142
+},
+"div": 0.0035004236317557756,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G2249A",
+"A2696C",
+"T3014C",
+"C3329T",
+"C4098T",
+"T4256C",
+"T5612C",
+"C8165T",
+"T9137C",
+"G9257A"
+]
+}
+}
+},
+{
+"name": "V17271|KU758877|2015-12-15|french_guiana",
+"node_attrs": {
+"num_date": {
+"value": 2015.954794520548
+},
+"div": 0.0031296496994226907,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T1493C",
+"G2525A",
+"A3619G",
+"G4970A",
+"T6725C",
+"G10133A"
+]
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000059",
+"node_attrs": {
+"num_date": {
+"value": 2015.5427890945427
+},
+"div": 0.0033152175796866004,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G1187T",
+"A1499G",
+"G1965T",
+"C2855T",
+"T5087C",
+"T7151C",
+"C7505T",
+"C7939T",
+"T8852C",
+"T9017C"
+]
+}
+},
+"children": [
+{
+"name": "Martinique/ZF1/2016|Martinique/ZF1/2016|2016-03-07|martinique",
+"node_attrs": {
+"num_date": {
+"value": 2016.181693989071
+},
+"div": 0.003963516640922298,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T428A",
+"C518T",
+"T755C",
+"C4112T",
+"C5680T",
+"C7094T",
+"G9344A"
+]
+}
+}
+},
+{
+"name": "NODE_0000060",
+"node_attrs": {
+"num_date": {
+"value": 2015.9164383561645
+},
+"div": 0.0035929548143335214,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.95
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T346C",
+"T779C",
+"C4883T"
+]
+}
+},
+"children": [
+{
+"name": "PuertoRico/ZF8/2016|PuertoRico/ZF8/2016|2016-06-13|puerto_rico",
+"node_attrs": {
+"num_date": {
+"value": 2016.4494535519125
+},
+"div": 0.004426660850618296,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T1965G",
+"T2060C",
+"C6278T",
+"T9242C",
+"C9287T",
+"T9296C",
+"G9311A",
+"A9333C",
+"G9344A"
+]
+}
+}
+},
+{
+"name": "PRVABC59|KX601168|2015-12-01|puerto_rico",
+"node_attrs": {
+"num_date": {
+"value": 2015.9164383561645
+},
+"div": 0.0035929548143335214,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+}
