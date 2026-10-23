@@ -16,7 +16,7 @@ Rapidly assess a time-scaled summary phylogenetic tree for evidence of time-depe
 Mode A estimates:
 
 - initial rate parameter (`μ0`);
-- long-term rate (`μ∞`); and
+- long-term substitution rate (`μ∞`); and
 - decay coefficient(`k`).
 
 It also provides model comparison, robustness assessment, and an intuitive **Traffic Light** classification to help determine whether further PoW calibration is warranted.
