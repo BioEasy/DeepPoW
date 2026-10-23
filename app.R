@@ -1008,7 +1008,7 @@ server <- function(input, output, session) {
           alert_div <- div(
             class = "alert alert-danger",
             style = "padding: 10px; font-size: 0.85em; margin-top: 10px;",
-            HTML(sprintf("<b>Severe Parameter Instability Detected:</b> The decay coefficient (k) shifted by %.1f%% (massive collapse). The original signal was is highly sensitive to extreme observations and requires further investigation.", shift_val * 100))
+            HTML(sprintf("<b>Severe Parameter Instability Detected:</b> The decay coefficient (k) shifted by %.1f%% after outlier trimming. The fitted decay pattern is highly sensitive to extreme branch-rate observations and requires further investigation.", shift_val * 100))
           )
         }
         
@@ -1165,10 +1165,10 @@ server <- function(input, output, session) {
         } else if (!is.null(shift_val) && (is.na(shift_val) || shift_val >= 1.0)) {
           div(
             class = "card border-danger mb-3",
-            div(class = "card-header bg-danger text-white", strong("Calibration Vetoed (Artifact Detected)")),
+            div(class = "card-header bg-danger text-white", strong("Methodological Calibration Vetoed (Potential Fitting Artifact)")),
             div(class = "card-body",
                 p(HTML("<b>Robustness Failure:</b> The diagnostic revealed that the TDRP signal is mathematically unstable, driven by outliers, or failed to converge upon trimming. Standard calibration is strongly discouraged."), style = "font-size: 0.9em; color: #721C24;"),
-                p(HTML("<b>&#8594; Calibration Halted:</b> Proceeding to Mode B is strongly discouraged due to severe artifact detection."), style = "font-size: 0.85em; font-weight: bold; color: #721C24; margin-bottom: 0;")
+                p(HTML("<b>&#8594; Methodological Calibration Veto:</b> Mode B calibration is strongly discouraged based on the current fit. Exploratory analyses remain available at the user's discretion."), style = "font-size: 0.85em; font-weight: bold; color: #721C24; margin-bottom: 0;")
             )
           )
         } else if (is.na(lambda_val) || lambda_val <= 1.01e-4 || is.na(mu_0_val) || is.na(mu_infty_val) || mu_0_val <= mu_infty_val) {
