@@ -468,7 +468,7 @@ ui <- page_navbar(
             tags$div(
               style = "font-size: 0.9em; color: #555555; line-height: 1.4; margin-top: 10px;",
               tags$strong("Note: "),
-              HTML("AIC = Akaike Information Criterion; BIC = Bayesian Information Criterion; &Delta;AIC / &Delta;BIC = Differences relative to the best model; RSS = Residual Sum of Squares; &mu;<sub>0</sub> = Initial Instantaneous Rate; &mu;<sub>&infin;</sub> = Long-term Evolutionary Rate; <i>k</i>= Rate Decay Coefficient.")
+              HTML("AIC = Akaike Information Criterion; BIC = Bayesian Information Criterion; &Delta;AIC / &Delta;BIC = Differences relative to the best model; RSS = Residual Sum of Squares; &mu;<sub>0</sub> = Initial Rate Parameter; &mu;<sub>&infin;</sub> = Long-term Substitution Rate; <i>k</i>= Decay Coefficient.")
             )
           ),
           hr(),
