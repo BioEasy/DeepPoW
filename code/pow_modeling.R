@@ -158,7 +158,7 @@ robustness_pow_model <- function(df, trim_quantile = 0.05) {
   trim_c <- extract_coefs(fit_trimmed)
   
   comp_table <- data.frame(
-    Parameter = c("mu_0 (Initial Rate)", "mu_infty (Long-term Rate)", "lambda (Decay Coef)"),
+    Parameter = c("mu_0 (Initial Substitution Rate)", "mu_infty (Long-term Substitution Rate)", "lambda (Decay Coefficient)"),
     Full_Data = c(signif(full_c[1], 4), signif(full_c[2], 4), signif(full_c[3], 4)),
     Trimmed_5pct = c(signif(trim_c[1], 4), signif(trim_c[2], 4), signif(trim_c[3], 4)),
     stringsAsFactors = FALSE
