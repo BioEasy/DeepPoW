@@ -15,7 +15,7 @@ Rapidly assess a time-scaled summary phylogenetic tree for evidence of time-depe
 
 Mode A estimates:
 
-- initial instantaneous rate (`μ0`);
+- initial rate parameter (`μ0`);
 - long-term rate (`μ∞`); and
 - decay coefficient(`k`).
 
@@ -209,6 +209,8 @@ Users should be cautious when working with datasets characterized by:
 A fitted PoW model does not by itself establish a biological mechanism. Similarly, a stable parameter estimate does not exclude all possible sampling or phylogenetic artifacts.
 
 The **Traffic Light** classifications are practical robustness-screening criteria and should not be interpreted as universal statistical significance thresholds or biological laws.
+
+A Red Light indicates a methodological calibration veto rather than a software-enforced lockout; exploratory Mode B analyses remain available at the user's discretion.
 
 Recombination is not automatically resolved by DeepPoW and should be considered during upstream sequence and phylogenetic analyses when relevant.
 
