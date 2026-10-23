@@ -221,15 +221,15 @@ mod_treetime_server <- function(id) {
           if (is.na(shift_val)) {
             alert_div <- div(class = "alert alert-danger", style = "padding: 10px; font-size: 0.85em; margin-top: 10px;", HTML(sprintf("<b>Convergence Failed:</b> The model could not converge after trimming %d%% outliers. The TDRP signal might be entirely driven by extreme noise.", input$tt_trim_q)))
           } else if (!is.na(full_lambda) && full_lambda > 150) {
-            alert_div <- div(class = "alert alert-danger", style = "padding: 10px; font-size: 0.85em; margin-top: 10px;", HTML(sprintf("<b>Ultra-Rapid Decay Warning:</b> The decay coefficient (\u03bb = %.1f) exceeds heuristic artifact-screening threshold (>150). This may indicate a fitting artifact or sensitivity to sampling structure and warrants further investigation.", full_lambda)))
+            alert_div <- div(class = "alert alert-danger", style = "padding: 10px; font-size: 0.85em; margin-top: 10px;", HTML(sprintf("<b>Ultra-Rapid Decay Warning:</b> The decay coefficient (\u03bb = %.1f) exceeds the heuristic artifact-screening threshold (>150). This may indicate a fitting artifact or sensitivity to sampling structure and warrants further investigation.", full_lambda)))
           } else if (is_paradoxical_or_flat && shift_val < 0.20) {
             alert_div <- div(class = "alert alert-secondary", style = "padding: 10px; font-size: 0.85em; margin-top: 10px;", HTML(sprintf("<b>Stable but Flat/Inverse:</b> The parameter space is stable (shift %.1f%%), but <b>%s</b>. This indicates a lack of genuine TDRP signal on this ML tree.", shift_val * 100, flat_reason)))
           } else if (shift_val < 0.20) {
             alert_div <- div(class = "alert alert-success", style = "padding: 10px; font-size: 0.85em; margin-top: 10px;", HTML(sprintf("<b>Globally Robust:</b> The decay coefficient (\u03bb) shifted by only %.1f%% after removing outliers.", shift_val * 100)))
-          } else if (shift_val <= 1.00) {
+          } else if (shift_val < 1.00) {
             alert_div <- div(class = "alert alert-warning", style = "padding: 10px; font-size: 0.85em; margin-top: 10px;", HTML(sprintf("<b>Moderately Sensitive:</b> The decay coefficient (\u03bb) shifted by %.1f%%. Please manually review terminal branches.", shift_val * 100)))
           } else {
-            alert_div <- div(class = "alert alert-danger", style = "padding: 10px; font-size: 0.85em; margin-top: 10px;", HTML(sprintf("<b>Severe Artifact Detected:</b> The decay coefficient (\u03bb) shifted by %.1f%%. The original TDRP signal was primarily driven by extreme outliers.", shift_val * 100)))
+            alert_div <- div(class = "alert alert-danger", style = "padding: 10px; font-size: 0.85em; margin-top: 10px;", HTML(sprintf("<b>Severe Artifact Detected:</b> The decay coefficient (\u03bb) shifted by %.1f%%. The fitted TDRP pattern may be strongly influenced by extreme branch-rate observations.", shift_val * 100)))
           }
           
           tagList(
