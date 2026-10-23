@@ -107,13 +107,13 @@ mod_treetime_server <- function(id) {
         tt_state$df <- df
         tt_state$model <- model
         tt_state$params_df <- data.frame(
-          Parameter = c("\u03bc\u2080 (Initial Rate)", "\u03bc\u221e (Long-term Rate)", "\u03bb (Decay Coefficient)"), 
+          Parameter = c("\u03bc\u2080 (Initial rate parameter)", "\u03bc\u221e (Long-term substitution rate)", "\u03bb (Decay Coefficient)"), 
           Value = c(mu0, muinf, lam)
         )
         
         output$tt_summary <- renderUI({
           div(class="alert alert-success", style="padding:10px; margin-bottom:15px;", 
-              HTML(sprintf("<b>Parsed successfully!</b><br>Decay Coefficient (\u03bb) = %.3f<br>Initial Rate (\u03bc<sub>0</sub>) = %.3e<br>Long-term Rate (\u03bc<sub>\u221e</sub>) = %.3e", lam, mu0, muinf))
+              HTML(sprintf("<b>Parsed successfully!</b><br>Decay Coefficient (\u03bb) = %.3f<br>Initial rate parameter (\u03bc<sub>0</sub>) = %.3e<br>Long-term substitution rate (\u03bc<sub>\u221e</sub>) = %.3e", lam, mu0, muinf))
           )
         })
         
