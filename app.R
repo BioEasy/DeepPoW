@@ -338,7 +338,7 @@ ui <- page_navbar(
             style = "display: flex; gap: 8px; margin-top: 10px;",
             actionButton(
               "run_pow",
-              "Fit PoW Model",
+              "Fit TDRP Model",
               class = "btn-primary",
               style = "flex: 1;"
             ),
