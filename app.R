@@ -2160,7 +2160,7 @@ output$mantel_result <- renderUI({
       HTML("1. Download the patched XML file.<br>
             2. Put it in the same folder as your original <code>.state</code> file.<br>
             3. Run the following command in your terminal:<br><br>
-            <pre style='background-color: #2C3E50; color: #F8F8F2; padding: 10px; border-radius: 4px; margin-bottom: 0;'>beast -resume original_run.state patched_run.xml</pre>")
+            <pre style='background-color: #2C3E50; color: #F8F8F2; padding: 10px; border-radius: 4px; margin-bottom: 0;'>beast -resume -statefile original_run.state patched_run.xml</pre>")
     )
   })
 
