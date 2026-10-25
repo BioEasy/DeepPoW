@@ -2,16 +2,7 @@
 # Function: Provide BEAST 2 XML hot-patching and RMSD Python script generation utilities (CIF/AlphaFold3 supported)
 
 library(xml2)
-
-#' Automatically patch BEAST 2 XML (inject branchRates logger)
-#'
-#' Parses the uploaded BEAST2 XML file, locates the Relaxed Clock model,
-#' and injects it into the TreeLogger (<logger id="treelog...") to ensure branch rates are logged.
-#' 
-#' @param xml_path Path to the original XML file
-#' @return list(success = Boolean, doc = xml_document, msg = String)
-patch_beast2_xml <- function(xml_path) {
-  
+patch_beast2_xml <- function(xml_path) { 
   doc <- xml2::read_xml(xml_path)
   brm_nodes <- xml2::xml_find_all(doc, "//*[@spec='beast.evolution.branchratemodel.UCRelaxedClockModel' or contains(@spec, 'RelaxedClock') or contains(@id, 'RelaxedClock')]")
   
@@ -36,18 +27,24 @@ patch_beast2_xml <- function(xml_path) {
   
   tree_logger_node <- tree_loggers[[1]]
   
-  existing_logs <- xml2::xml_find_all(tree_logger_node, paste0("./log[@idref='", brm_id, "']"))
-  if (length(existing_logs) > 0) {
+  twmdl_node <- xml2::xml_find_first(tree_logger_node, "./log[contains(@spec, 'TreeWithMetaDataLogger')]")
+  
+  if (is.na(twmdl_node) || length(twmdl_node) == 0) {
+    return(list(success = FALSE, doc = NULL, msg = "[FAIL] Could not find TreeWithMetaDataLogger inside the tree logger."))
+  }
+  
+  existing_brm <- xml2::xml_attr(twmdl_node, "branchratemodel")
+  expected_brm <- paste0("@", brm_id)
+  
+  if (!is.na(existing_brm) && existing_brm == expected_brm) {
     return(list(
       success = TRUE, 
       doc = doc, 
-      msg = paste0("[SUCCESS] Your XML already contains the required logger: <log idref=\"", brm_id, "\"/>\nNo changes needed. Your .trees file should already include branch rates.")
+      msg = paste0("[SUCCESS] Your XML already logs branch rates: branchratemodel=\"", expected_brm, "\"\nNo changes needed. Your .trees file should already include branch rates.")
     ))
   }
-  
-  new_log_element <- xml2::read_xml(paste0("<log idref=\"", brm_id, "\"/>"))
-  xml2::xml_add_child(tree_logger_node, new_log_element)
-  
+
+  xml2::xml_set_attr(twmdl_node, "branchratemodel", expected_brm)
   success_msg <- paste0(
     "[SUCCESS] Patch injected successfully!\n",
     "-> Detected Relaxed Clock ID: ", brm_id, "\n",
@@ -58,13 +55,6 @@ patch_beast2_xml <- function(xml_path) {
   return(list(success = TRUE, doc = doc, msg = success_msg))
 }
 
-
-#' Generate robust Python scaffold script for calculating structural distance matrices (CIF/AlphaFold3 compatible)
-#'
-#' @param engine String, "Foldseek" or "TM-align"
-#' @param pdb_dir String, path to AlphaFold3 CIF directory
-#' @param output_csv String, filename for the output distance matrix CSV
-#' @return String containing the Python script text
 generate_rmsd_script <- function(engine, pdb_dir, output_csv) {
   
   if (grepl("Foldseek", engine, ignore.case = TRUE)) {
