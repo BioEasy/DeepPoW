@@ -73,8 +73,8 @@ mod_about_ui <- function(id) {
                  h4(style = "color: #1E293B; font-weight: bold; margin-top: 0;", "Docs & Code"),
                  p(style = "font-size: 14px; color: #334155;", "Browse the full user manual, or view the source code, dependencies, and local deployment guide on GitHub."),
                  div(style = "margin-top: 15px; display: flex; gap: 10px;",
-                     tags$a(href = "guide.pdf", target = "_blank", class = "btn btn-outline-primary btn-sm", " Quick Guide (PDF)"),
-                     tags$a(href = "manual.pdf", target = "_blank", class = "btn btn-outline-primary btn-sm", " User Manual (PDF)"),
+                     tags$a(href = "Quick_Guide.pdf", target = "_blank", class = "btn btn-outline-primary btn-sm", " Quick Guide (PDF)"),
+                     tags$a(href = "Manual.pdf", target = "_blank", class = "btn btn-outline-primary btn-sm", " User Manual (PDF)"),
                      tags$a(href = "https://github.com/BioEasy/DeepPoW", target = "_blank", class = "btn btn-outline-secondary btn-sm", "GitHub Repository")
                  ),
                  p(style = "font-size: 12px; color: #64748B; margin-top: 15px;", "* Please refer to README.md for full tech stack and dependency details.")
