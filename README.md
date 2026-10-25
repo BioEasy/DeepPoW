@@ -144,8 +144,8 @@ If you intend to use the **Structural Validation** module to calculate structura
 
 DeepPoW is accompanied by several complementary resources:
 
-- **[Quick Guide](docs/DeepPoW_Quick_Guide_v1.0.pdf)** — a concise, step-by-step guide for running a typical DeepPoW analysis.
-- **[User Manual](docs/DeepPoW_User_Manual_v1.0.pdf)** — detailed information on functions, parameters, interpretation, troubleshooting, and advanced usage.
+- **[Quick Guide](Quick_Guide.pdf)** — a concise, step-by-step guide for running a typical DeepPoW analysis.
+- **[User Manual](Manual.pdf)** — detailed information on functions, parameters, interpretation, troubleshooting, and advanced usage.
 - **[Research Article](#citation)** — theoretical background, computational framework, validation, and empirical applications.
 
 > **Important:** DeepPoW is a diagnostic and calibration framework, not an automatic detector of biological truth. Results should be interpreted in the context of sampling design, evolutionary timescale, temporal signal, and phylogenetic uncertainty. See the **User Manual** for detailed limitations and interpretation guidance.
