@@ -14,7 +14,7 @@ library(nleqslv)
 library(ggplot2)
 library(shinyFiles) 
 
-options(shiny.maxRequestSize = 500 * 1024^2)
+options(shiny.maxRequestSize = 2000 * 1024^2)
 
 
 json_safe_numeric <- function(x) {
