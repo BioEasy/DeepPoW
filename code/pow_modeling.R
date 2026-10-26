@@ -62,7 +62,7 @@ compare_models <- function(df, pow_fit) {
   const_rss <- sum((log(df$rate) - mean_log_rate)^2)
   const_k <- 2
   const_aic <- pow_n * log(const_rss / pow_n) + 2 * const_k
-  const_bic <- pow_n * log(const_rss / pow_n) + log(log(pow_n)) * const_k
+  const_bic <- pow_n * log(const_rss / pow_n) + log(pow_n) * const_k
   
   aic_values <- c(pow_aic, const_aic)
   bic_values <- c(pow_bic, const_bic)
